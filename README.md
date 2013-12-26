@@ -1,6 +1,6 @@
-dotfiles.git
-============
-configure your `bash`, `emacs` and `zsh` development environment as follows:
+Repository for the files needed during setting up new machines and for synchronising setups between machines.
+
+Configure your `bash`, `emacs` and `zsh` development environment as follows:
 
 ```sh
 cd $HOME
