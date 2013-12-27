@@ -13,3 +13,12 @@ ln -s dotfiles/.gitconfig .
 mv .emacs.d .emacs.d~
 ln -s dotfiles/.emacs.d .
 ```
+
+Customerize your '.bashrc_custom' and have git ingore the changes.
+```
+git update-index --assume-unchanged .bashrc_custom
+```
+This can be undone by,
+```
+git update-index --no-assume-unchanged .bashrc_custom
+```
