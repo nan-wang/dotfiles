@@ -185,10 +185,10 @@ alias du='du -ch -d 1'
 alias treeacl='tree -A -C -L 2'
 
 # 2.3) Text and editor commands
-alias em='emacs -nw'     # No X11 windows
-alias eqq='emacs -nw -Q' # No config and no X11
-export EDITOR='emacs -nw'
-export VISUAL='emacs -nw' 
+#alias em='emacs -nw'     # No X11 windows
+#alias eqq='emacs -nw -Q' # No config and no X11
+export EDITOR='vim'
+#export VISUAL='vim' 
 
 # 2.4) grep options
 export GREP_OPTIONS='--color=auto'
