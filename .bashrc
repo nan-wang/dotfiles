@@ -175,7 +175,7 @@ alias cp="cp -i"
 set -o noclobber
 
 # 2.2) Listing, directories, and motion
-alias ll="ls -ahlrtFG"
+alias ll="ls -ahlrtvFG"
 alias m='less'
 alias ..='cd ..'
 alias ...='cd ..;cd ..'

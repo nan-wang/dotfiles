@@ -76,3 +76,8 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make bashprompt show that Canopy is active, otherwise 1
 VIRTUAL_ENV_DISABLE_PROMPT=1 source /Users/nan/Library/Enthought/Canopy_64bit/User/bin/activate
 
+# Configure Chinese character display in iTerm2
+# See reference: http://qlli.blogspot.com/2007/05/iterm.html
+bind 'set convert-meta off'
+bind 'set meta-flag on'
+bind 'set output-meta on'
