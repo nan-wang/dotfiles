@@ -64,18 +64,6 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
 
-##
-# Your previous /Users/nan/.bash_profile file was backed up as /Users/nan/.bash_profile.macports-saved_2013-12-26_at_04:43:52
-##
-
-# MacPorts Installer addition on 2013-12-26_at_04:43:52: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
-# Added by Canopy installer on 2014-06-29
-# VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make bashprompt show that Canopy is active, otherwise 1
-VIRTUAL_ENV_DISABLE_PROMPT=1 source /Users/nan/Library/Enthought/Canopy_64bit/User/bin/activate
-
 # Configure Chinese character display in iTerm2
 # See reference: http://qlli.blogspot.com/2007/05/iterm.html
 bind 'set convert-meta off'
