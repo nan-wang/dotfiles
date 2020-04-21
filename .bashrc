@@ -183,6 +183,9 @@ alias md='mkdir'
 alias cl='clear'
 alias du='du -ch -d 1'
 alias treeacl='tree -A -C -L 2'
+alias gs="git status"
+alias gpl="git pull"
+alias gps="git push"
 
 # 2.3) Text and editor commands
 #alias em='emacs -nw'     # No X11 windows
